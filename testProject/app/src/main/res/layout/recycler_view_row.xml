@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:gravity="center_vertical"
+    android:clickable="true">
+
+    <androidx.cardview.widget.CardView
+        android:clickable="true"
+        android:id="@+id/recycler_view_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="83dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="298dp"
+            android:layout_height="match_parent"
+            android:text="example title"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:paddingLeft="15dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
